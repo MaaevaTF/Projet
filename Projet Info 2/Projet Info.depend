@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1522768462 source:c:\users\moi_m\desktop\ece\ing2\informatique\projet info\main.cpp
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+
+1522847671 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\main.cpp
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"Sous-p.h"
+
+1522847671 c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+
+1522849630 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+
