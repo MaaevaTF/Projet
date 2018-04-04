@@ -7,10 +7,12 @@
 #include "Sous-p.h"
 
 
+
 using namespace std;
 
 int main()
 {
+    ///Initialisation d'Allegro
     srand(time(NULL));
     allegro_init();
     install_keyboard();
@@ -24,22 +26,16 @@ int main()
     }
     show_mouse(screen);
 
+    ///Déclaration des bitmaps
+    BITMAP* ecran=create_bitmap(1600,1200); //Bitmap d'affichage
+    BITMAP* Menu=load_bitmap("Menu.bmp",NULL); //Bitmaps du menu
+    BITMAP* Informations=load_bitmap("Informations.bmp",NULL); //Bitmap d'accès aux informations explicatives
+    BITMAP* Reseaux=load_bitmap("Reseaux.bmp",NULL); //Bitmap pour accéder à nos trois réseaux
+    BITMAP* Quitter=load_bitmap("Quitter.bmp",NULL); //Bitmap pour quitter
 
+    int fin=0; // Variable pour le menu
+    menu(ecran,Menu,Reseaux,Informations,Quitter,fin);
 
-    BITMAP* ecran=create_bitmap(1600,1200); ///Déclaration des bitmap affichage
-    BITMAP* Menu=load_bitmap("Menu.bmp",NULL); ///Déclaration des bitmaps du menu
-    BITMAP* Informations=load_bitmap("Informations.bmp",NULL);
-    BITMAP* Reseaux=load_bitmap("Reseaux.bmp",NULL);
-    BITMAP* Quitter=load_bitmap("Quitter.bmp",NULL);
-
-
-
-
-    int v=0; /// Variable pour le menu
-        menu(ecran,Menu,Reseaux,Informations,Quitter,v);
-
-
-         return 0;
-
+    return 0;
 }
 END_OF_MAIN();

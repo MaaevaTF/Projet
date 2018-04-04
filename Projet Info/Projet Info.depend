@@ -5,7 +5,7 @@
 	<time.h>
 	<math.h>
 
-1522789145 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\main.cpp
+1522847671 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\main.cpp
 	<iostream>
 	<allegro.h>
 	<time.h>
@@ -14,7 +14,7 @@
 	<vector>
 	"Sous-p.h"
 
-1522789184 c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\sous-p.h
+1522847671 c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\sous-p.h
 	<iostream>
 	<allegro.h>
 	<time.h>
@@ -22,7 +22,7 @@
 	<fstream>
 	<vector>
 
-1522790382 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\sous-p.cpp
+1522849630 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info\sous-p.cpp
 	"Sous-p.h"
 	<iostream>
 	<allegro.h>

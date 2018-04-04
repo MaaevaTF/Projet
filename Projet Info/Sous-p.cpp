@@ -6,65 +6,62 @@
 #include <fstream>
 #include <vector>
 
+
 ///Sous-programme du menu principale
-void menu (BITMAP* ecran, BITMAP* Menu,BITMAP* Informations, BITMAP* Reseaux, BITMAP* Quitter, int v)
+void menu (BITMAP* ecran, BITMAP* Menu,BITMAP* Informations, BITMAP* Reseaux, BITMAP* Quitter, int fin)
 {
 
-    if (v==0)
+    fin = 0; // variable de la boucle
+    int v = 0 ; //valeur utilisée pour temporisation
+    while (!fin && v==0) //tant qu'on est dans la boucle intérative
     {
-        while (v==0)
+        blit(Menu,ecran,0,0,0,0,800,600); //on affiche le menu qui est l'écran principale
+
+        if (mouse_x>=242 && mouse_x<=559 && mouse_y>=113 && mouse_y<=212) //si la souris se trouvent dans cette zone
         {
-
-            blit(Menu,ecran,0,0,0,0,800,600);
-
-            if (mouse_x>=242 && mouse_x<=559 && mouse_y>=250 && mouse_y<=349)
-            {
-                blit(Reseaux,ecran,0,0,0,0,800,600);
-                if (mouse_b==1)
-                {
-                    v=1;
-                    rest(300);
-                }
-            }
-
-            if (mouse_x>=242 && mouse_x<=559 && mouse_y>=113 && mouse_y<=212)
-            {
-                blit(Informations,ecran,0,0,0,0,800,600);
-                if (mouse_b==1)
-                {
-                    v=2;
-                    rest(150);
-                }
-            }
-
-
-            if (mouse_x>=242 && mouse_x<=559 && mouse_y>=386 && mouse_y<=485)
-            {
-                blit(Quitter,ecran,0,0,0,0,800,600);
-                if (mouse_b==1)
-                {
-                    v=3;
-                    rest(150);
-                }
-            }
-
-            blit(ecran,screen,0,0,0,0,800,600);
-            clear(ecran);
-        }
-        if (v==1)
-        {
-            BITMAP* Blanc=load_bitmap("Blanc.bmp",NULL); ///BitMap pour affichage des informations
-            LireInformations(ecran,Blanc);
+            blit(Informations,ecran,0,0,0,0,800,600); //on affiche la bitmap des infos
         }
 
-
-
-        if (v==3)
+        if (mouse_x>=242 && mouse_x<=559 && mouse_y>=250 && mouse_y<=349)
         {
+            blit(Reseaux,ecran,0,0,0,0,800,600); //on affiche la bitmap des réseaux
+            if (mouse_b&1) //si on clique sur le bouton gauche
+            {
+                BITMAP* Info=load_bitmap("Info.bmp",NULL); //Chargement bitmap pour affichage des informations
+                blit(Info,ecran,0,0,0,0,800,600); //Affichage du bitmap explicatif de nos réseaux
+                v=1;
+            }
+        }
+
+        if (mouse_x>=242 && mouse_x<=559 && mouse_y>=386 && mouse_y<=485)
+        {
+            blit(Quitter,ecran,0,0,0,0,800,600); //on affiche la bitmap pour quitter
+            if(mouse_b&1)
+            {
+                BITMAP* Bye=load_bitmap("Bye.bmp",NULL); //Chargement bitmap pour affichage des informations
+                blit(Bye,ecran,0,0,0,0,800,600); //Affichage du bitmap explicatif de nos réseaux
+                v=2;
+            }
+        }
+
+      //  blit(ecran,screen,0,0,0,0,800,600);
+        //clear(ecran);
+
+        if(v==1)
+        {
+            rest(10000);
+            v=0;
+        }
+
+        if (v==2)
+        {
+            rest(2000); //temporisation avant de sotir du programme
             allegro_exit();
             exit(EXIT_FAILURE);
-
         }
+
+        if (mouse_b&2) //On sort de la boucle
+            fin = 1 ;
     }
 }
 
@@ -102,9 +99,3 @@ void Lirefichier(const std::string& path)
     }
 }
 
-void LireInformations(BITMAP* ecran, BITMAP* Blanc)
-{
-    ecran=create_bitmap(1600,1200); //Déclaration des bitmap affichage
-    blit(Blanc,ecran,0,0,0,0,800,600); //BitMap blanc sur lequel on écrit les règles
-    Lirefichier("Info.txt");
-}
