@@ -31,3 +31,29 @@
 	<fstream>
 	<vector>
 
+1522850006 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info 2\main.cpp
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"Sous-p.h"
+
+1522858688 c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info 2\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+
+1522858738 source:c:\users\moi_m\desktop\ece\ing2\informatique\semestre 2\projet info 2\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+

@@ -11,11 +11,12 @@ using namespace std;
 
 void menu (BITMAP* ecran, BITMAP* Menu,BITMAP* Informations, BITMAP* Reseaux, BITMAP* Quitter, int v);
 
+void choix (BITMAP* ecran,BITMAP* Choice ,BITMAP* Eau,BITMAP* Foret, BITMAP* Savanne);
+
 void writeFile(const std::string& path,std::vector<std::string>::iterator it);
 
 void Lirefichier(const std::string& path);
 
-void LireInformations(BITMAP* ecran, BITMAP* Blanc);
 
 
 #endif // SOUS-P_H_INCLUDED
