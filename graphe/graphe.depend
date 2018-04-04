@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1522854035 source:c:\users\ieuser\desktop\graphe\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"include\graphe.h"
+	"include\programme.h"
+	<map>
+	<ctime>
+	<fstream>
+	<string>
+
+1522851594 source:c:\users\ieuser\desktop\graphe\src\graphe.cpp
+	"graphe.h"
+	<iostream>
+	<stdio.h>
+
+1522852062 c:\users\ieuser\desktop\graphe\include\graphe.h
+	<stdio.h>
+	<vector>
+	<map>
+
+1522852128 c:\users\ieuser\desktop\graphe\include\programme.h
+	"graphe.h"
+
+1522854035 source:c:\users\ieuser\desktop\graphe\src\programme.cpp
+	"programme.h"
+	<fstream>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
