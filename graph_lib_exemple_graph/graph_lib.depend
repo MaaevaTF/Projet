@@ -1,0 +1,382 @@
+# depslib dependency file v1.0
+1522859460 source:c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1522860557 c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522758797 c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522758797 c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522758797 c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522758797 c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522758797 source:c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522758797 source:c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522758797 source:c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522758797 source:c:\users\ieuser\desktop\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522758798 source:c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522758798 c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522758798 source:c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522758798 c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522758798 c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522758798 c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522758798 source:c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522864034 source:c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"Sous-p.h"
+	"graph.h"
+
+1522860558 c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522863060 source:c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	<fstream>
+
+1522863853 c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+
+1522864436 source:c:\users\ieuser\desktop\graph_lib_exemple_graph\graph_lib_exemple_graph\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"grman/grman.h"
+	"graph.h"
+
+1522936509 source:c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	<fstream>
+
+1522936490 c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522872927 c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522872927 c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522872927 c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522872927 c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522872927 source:c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522872927 source:c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522872927 source:c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522935408 source:c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"Sous-p.h"
+	"graph.h"
+
+1522936076 c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+
+1522936776 source:c:\users\moi_m\desktop\last version\graph_lib_exemple_graph\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"grman/grman.h"
+	"graph.h"
+
+1522940428 source:c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	<fstream>
+
+1522941164 c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522937862 c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522937862 c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522937861 c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522941139 c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522937861 source:c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522937862 source:c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522937862 source:c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522937860 source:c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"Sous-p.h"
+	"graph.h"
+
+1522942800 c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"graph.h"
+
+1522942563 source:c:\users\ieuser\desktop\last version\last version\graph_lib_exemple_graph\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"grman/grman.h"
+	"graph.h"
+
+1523024860 source:c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	<fstream>
+
+1523017092 c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1523014437 c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1523014437 c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1523014437 c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1523014437 c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1523014437 source:c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1523014437 source:c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1523014437 source:c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1523014435 source:c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"Sous-p.h"
+	"graph.h"
+
+1523016134 c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\sous-p.h
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"graph.h"
+
+1523017121 source:c:\users\ieuser\desktop\last version\last version\last version\graph_lib_exemple_graph\sous-p.cpp
+	"Sous-p.h"
+	<iostream>
+	<allegro.h>
+	<time.h>
+	<math.h>
+	<fstream>
+	<vector>
+	"grman/grman.h"
+	"graph.h"
+
