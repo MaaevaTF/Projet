@@ -1,0 +1,19 @@
+10
+7
+0 30 200 100 Oiseau.jpg
+1 60 400 100 vers.jpg
+2 50 600 100 Feuille.jpg
+3 0 54 294 rat.jpg
+4 100 335 298 escargot.jpg
+5 38.5714 600 300 salade.jpg
+6 60 50 500 hérisson.jpg
+7 50 300 500 serpent.jpg
+8 0 550 500 crapaud.jpg
+9 100 750 500 mouche.jpg
+0 1 0 50
+1 2 1 50
+2 4 3 50
+3 5 4 50
+4 7 6 50
+5 8 7 50
+6 9 8 50
